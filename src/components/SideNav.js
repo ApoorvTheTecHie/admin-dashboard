@@ -7,7 +7,7 @@ const SideNav = () => {
         <div>
             <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
             <ul id="drawer" style={{backgroundColor : '#282651', marginTop : '51px'}}>
-                <Link to="/"><li className="styleImageElement">
+                <Link to="/dashboard"><li className="styleImageElement">
                                 <h3> Admin </h3>
                                 <img 
                                     style={{height : '90px', width : '90px' }} 

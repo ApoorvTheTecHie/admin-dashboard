@@ -7,3 +7,6 @@ export Products from './Products';
 export Withdraws from './Withdraws';
 export Categories from './Categories';
 export EditCategory from './EditCategory';
+export Users from './Users';
+export Currencies from './Currencies.js';
+export Settings from './Settings.js'

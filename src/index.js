@@ -9,7 +9,10 @@ import {
     Home,
     Orders,
     Categories,
-    EditCategory
+    EditCategory,
+    Users,
+    Currencies,
+    Settings
 } from './containers';
 import {
     ViewDetails,
@@ -70,6 +73,9 @@ ReactDOM.render(
                 <PublicRoute exact path="/dashboard" component={Home} />
                 <PublicRoute exact path="/categories" component={Categories} />
                 <PublicRoute exact path="/editCategory" component={EditCategory} />
+                <PublicRoute exact path="/users" component={Users} />
+                <PublicRoute exact path="/currencies" component={Currencies} />
+                <PublicRoute exact path="/settings" component={Settings} />
             </Switch>
         </Router>,
     document.getElementById('root')
